@@ -1,14 +1,14 @@
 #include<stdio.h>
 /**
- * * main - uses puts function to print a line
+ * * main - uses printf function to print a line
  * *
- * * Description:We are not to use printf so must use put to print the string
+ * * Description: Only use printf functions
  * * Return: Code should return 0
  *
  *
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	printf("\"with proper grammar, the outcome is a piece of art,");
 	return (0);
 }
