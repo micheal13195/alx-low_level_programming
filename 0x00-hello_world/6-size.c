@@ -1,19 +1,16 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - entry point
- *
- * *Description: a script that prints the size of various type of computer
- * *Return (0) return o at the end of file
- *
- *
+ * *main - Prints the sizes of different variables in bytes
+ * *
+ * *Return: 0
+ * *
  */
-int main (void)
+int main(void)
 {
-	char size of a char 
-	int size of a int:
-	long int size of a long int
-	long long size of a long long
-	float size of a float
-	printf("The size of computers are:%c%c%c%c%c", 1 byte(s), 4 byte(s), 4 byte(s), 8 byte(s), 4 byte(s) )
-		return (0)
+	printf("Size of a char: %i byte(s)\n", sizeof(char));
+	printf("Size of an int: %i byte(s)\n", sizeof(int));
+	printf("Size of a long int: %i byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %i byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %i byte(s)\n", sizeof(float));
+	return (0);
 }
