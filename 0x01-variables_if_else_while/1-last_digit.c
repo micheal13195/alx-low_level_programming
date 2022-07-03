@@ -3,9 +3,9 @@
 #include <time.h>
 /* more headers goes there */
 /**
- * main - Task 1 print the last digit of the number stored in the variable n
+ ** main - Task 1 print the last digit of the number stored in the variable n
  *
- * Description:'The variable n will store a different value every time,
+ ** Description:'The variable n will store a different value every time,
  * you run this program'
  */
 
@@ -22,13 +22,13 @@ int main(void)
 	{
 	printf("greater than 5\n");
 	}
-	else if (n % 10 < 10)
+	else if (n % 10 == 0)
 	{
-	printf("less than 5\n");
+	printf("0\n");
 	}
-	else if ("0\n")
+	else
 	{
-	printf("zero");
+	printf("n is less than 6 and not 0\n");
 	}
 	return (0);
 }
