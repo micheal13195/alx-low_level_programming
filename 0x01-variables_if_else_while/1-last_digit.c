@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+
 /**
  ** main - Task 1 print the last digit of the number stored in the variable n
  *
- ** Description:'The variable n will store a different value every time,
- * you run this program'
- */
+//Description:'The variable n will store a different value every time,
+ *  you run this program'
+ **/
 
+/* more headers goes there */
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -28,7 +29,7 @@ int main(void)
 	}
 	else
 	{
-	printf("n is less than 6 and not 0\n");
+	printf("less than 6 and not 0\n");
 	}
 	return (0);
 }
