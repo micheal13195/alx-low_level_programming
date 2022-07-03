@@ -5,7 +5,7 @@
 /**
  ** main - Task 1 print the last digit of the number stored in the variable n
  *
-//Description:'The variable n will store a different value every time,
+*Description:'The variable n will store a different value every time,
  *  you run this program'
  **/
 
