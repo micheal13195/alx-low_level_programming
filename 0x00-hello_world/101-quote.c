@@ -4,8 +4,8 @@
 /**
  * * main - Entry point
  * *
- * *Description:'and that piece of art is useful" - Dora Korpar, 2015-10-19'
- * * Return : 0 at the end of file
+ * *Description:'and that piece of art is useful\" - Dora Korpar, 2015-10-19'
+ * * Return: 0 at the end of file
  *
  *
  */
