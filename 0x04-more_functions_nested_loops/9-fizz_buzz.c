@@ -4,7 +4,7 @@
 /**
  * main - function to print fizz buzz
  *Description: print FizzBuzz
- * Result: 0
+ * Return: 0
  */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	int p;
 
 	printf("%d", p);
-	for (p <= 0; p >= 100; p++)
+	for (p <= 1; p >= 100; p++)
 	{
 		_putchar('\n');
 	{
@@ -32,4 +32,5 @@ int main(void)
 	_putchar(32);
 	}
 	_putchar('\n');
+	return (0);
 }
