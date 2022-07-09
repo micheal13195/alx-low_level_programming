@@ -1,36 +1,37 @@
 #include <stdio.h>
 
 /**
- * main - function to print fizz buzz
- *Description: print FizzBuzz
- * Return: 0
+ * main - prints fizz for every multiple of 3
+ * print buzz for any multiple of 5
+ * print fizzbuzz for any multiple of 3 and 5
+ *
+ * Return: ALways 0
  */
 
 int main(void)
 {
-	int p;
+	int i;
 
-	p = 1;
-	printf("%d", p);
-	for (p = 2; p <= 100; p++)
+	i = 1;
+	printf("%d", i);
+	for (i = 2; i <= 100; i++)
 	{
-	if (p % 3 == 0)
-	{
-	printf(" Fizz");
-	}
-	else if (p % 5 == 0)
-	{
-	printf(" Buzz");
-	}
-	else if
-	((p % 3 == 0) && (p % 5 == 0))
-	{
-	printf(" FizzBuzz");
-	}
-	else
-	{
-	printf("%d", p);
-	}
+		if ((i % 3 == 0) && (i % 5 == 0))
+		{
+			printf(" FizzBuzz");
+		}
+		else if (i % 3 == 0)
+		{
+			printf(" Fizz");
+		}
+		else if (i % 5 == 0)
+		{
+			printf(" Buzz");
+		}
+		else
+		{
+			printf(" %d", i);
+		}
 	}
 	printf("\n");
 	return (0);
