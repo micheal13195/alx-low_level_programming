@@ -23,7 +23,7 @@ int main(void)
 		printf("Buzz");
 	}
 	else if
-		(p % 3 == 0 && p % 5 == 0)
+		((p % 3 == 0) && (p % 5 == 0))
 		{
 		printf("FizzBuzz");
 		}
