@@ -11,8 +11,9 @@ int main(void)
 {
 	int p;
 
+	p = 1;
 	printf("%d", p);
-	for (p <= 1; p >= 100; p++)
+	for (p = 2; p >= 100; p++)
 	{
 		_putchar('\n');
 	{
