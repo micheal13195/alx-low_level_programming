@@ -13,7 +13,7 @@ int main(void)
 
 	p = 1;
 	printf("%d", p);
-	for (p = 2; p >= 100; p++)
+	for (p = 2; p <= 100; p++)
 	{
 		_putchar('\n');
 	{
