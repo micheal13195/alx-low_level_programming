@@ -1,24 +1,26 @@
 #include "main.h"
 
 /**
- * print_diagonal - function to print diagonal universe
- * @n: diagonally packed
- * Result: 0
+ * print_diagonal - print diagonal lines n times
+ *
+ * @n: times diagonal lines are printed
+ *
+ * Return: no return
  */
 
 void print_diagonal(int n)
 {
-	int i, p;
+		int p, q;
 
-	for (i = 0; i < n; i++)
-	{
-	for (p = 0; p < n; p++)
-	{
-	_putchar(' ');
-	}
-	_putchar(92);
-	if (p < (n - 1))
-	_putchar('\n');
-	}
-	_putchar('\n');
+		for (p = 0; p < n; p++)
+		{
+			for (q = 0; q < p; q++)
+			{
+				_putchar(' ');
+			}
+			_putchar(92);
+			if (p < (n - 1))
+				_putchar('\n');
+		}
+		_putchar('\n');
 }
