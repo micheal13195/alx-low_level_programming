@@ -2,10 +2,10 @@
 
 /**
  * _memset - function that fill memory
- * @s: memory area
- * @b: constant byte
- * @n: byte filled
- * Return: 0
+ * @s: memory area.
+ * @b: constant byte.
+ * @n: byte filled.
+ * Return: the point to dest.
  */
 
 char *_memset(char *s, char b, unsigned int n)
