@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _memset - function that fill memory
- * @s: single memory
- * @b: b memory
- * @n: n memory
+ * @s: memory area
+ * @b: constant byte
+ * @n: byte filled
  * Return: 0
  */
 
